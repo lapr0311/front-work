@@ -50,7 +50,7 @@ export default function RegistroForm() {
     try {
 
         console.log(usuario)
-        const urlServer = "http://localhost:3001/api/user";
+        const urlServer =  import.meta.env.VITE_SERVER_URL + "/api/user";
         const endpoint = "/register"
 
         await axios.post(urlServer + endpoint, usuario)
@@ -149,7 +149,7 @@ export default function RegistroForm() {
         <div className="col-md-2">
           <label
             htmlFor="cintura"
-            className="form-label">Cintura</label>
+            className="form-label">Cadera</label>
           <input
             value={usuario.cintura}
             onChange={handleSetUsuario}
@@ -212,7 +212,7 @@ export default function RegistroForm() {
         <div className="col-md-2">
           <label
             htmlFor="peso"
-            className="form-label">Cadera</label>
+            className="form-label">Cintura</label>
           <input
           value={usuario.cadera}
           onChange={handleSetUsuario}

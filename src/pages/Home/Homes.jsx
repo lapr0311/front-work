@@ -16,7 +16,7 @@ export default function Home() {
 
       <div className="allegory-hero__container">
       <div className="allegory-hero__content">
-      <h1 className="allegory-hero__content--title">Allegory soluciona el problema de 
+      <h1 className="allegory-hero__content--title">IFASHA soluciona el problema de 
       comprar en tu talla.</h1>
       <a>
       

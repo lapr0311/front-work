@@ -46,7 +46,7 @@ export default function Camisa() {
     
     try {
       const response = await axios.get(
-        "http://localhost:3001/api/user/get-products"
+         import.meta.env.VITE_SERVER_URL + "/api/user/get-products"
       );
       if (response.data.length > 0) {
 
@@ -67,7 +67,7 @@ export default function Camisa() {
   const handleBuscar = async () => {
     try {
       const response = await axios.get(
-        "http://localhost:3001/api/user/get-product" , {
+         import.meta.env.VITE_SERVER_URL + "/api/user/get-product" , {
           params: {
             nombre_producto: selectedProducto,
             pecho: parseInt(selectedPechoSize)

@@ -25,7 +25,7 @@ export default function RegistroForm() {
   };
 
   const iniciarSesion = async () => {
-    const urlServer = "http://localhost:3001/api/user";
+    const urlServer =  import.meta.env.VITE_SERVER_URL + "/api/user";
     const endpoint = "/login";
 
     const { email, password } = usuario;
