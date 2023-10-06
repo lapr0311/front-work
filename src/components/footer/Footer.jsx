@@ -3,7 +3,7 @@ import React from 'react'
 // import logo2 from '../asset/img/Logo_footer-01.svg'
 
 
-import './footer.css'
+import './Footer.css'
 import { FaSquareFacebook ,  FaSquareInstagram } from "react-icons/fa6";
 
 export default function Footer() {
