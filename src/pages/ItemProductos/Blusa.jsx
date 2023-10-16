@@ -132,7 +132,7 @@ export default function Blusa() {
         <h2> Talla de Busto (cm) </h2>
         <input value={selectedPechoSize} onChange={handlePechoSizeChange} />
         <button onClick={handleBuscar}>Buscar</button>
-        <button className="close-button"  onClick={closeModal}>Cancelar</button>
+        <button className="close-button"  onClick={closeModal}>X</button>
 
         <h2 style={{ textTransform: 'uppercase' }}>{selectedRecomendacion}</h2>
         <a href={selectedUrl} target="_blank" rel="noopener noreferrer">ir a comprar</a>
