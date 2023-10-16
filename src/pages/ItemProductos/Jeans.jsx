@@ -130,7 +130,7 @@ export default function Jeans() {
         >
            <div className="modal-container">
             <div className="modal-content">
-          <h2> Talla de  Cadera</h2>
+          <h2> Talla de  Cadera (cm) </h2>
           <input value={selecteCinturaSize} onChange={handleCinturaSizeChange} />
           <button onClick={handleBuscar}>Buscar</button>
           <button className="close-button"  onClick={closeModal}>Cancelar</button>
