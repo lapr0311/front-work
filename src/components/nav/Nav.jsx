@@ -13,13 +13,10 @@ export default function Nav() {
   const handleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
 
-
+  };
   return (
 
   
-  };
-
-  return (
     <nav className="navbar navbar-expand-lg navbar-light allegory-nav__container">
       <div className="navbar-container">
         <div className="navbar-logo">
