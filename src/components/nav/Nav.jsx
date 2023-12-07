@@ -18,7 +18,9 @@ export default function Nav() {
           <a className="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li className="nav-item">
-          <a NavLink activeClassName="active" exact to="/buscador" className="nav-link">Buscador</a>
+        <NavLink activeClassName="active" exact to="/buscador" className="nav-link">
+            Buscador
+            </NavLink>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#">Pricing</a>
