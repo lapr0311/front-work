@@ -32,12 +32,18 @@ export default function Nav() {
           <NavLink activeClassName="active" exact to="/blog" className="nav-link">
             Blog
           </NavLink>
+          <NavLink activeClassName="active" exact to="/register" className="nav-link">
+          Suscríbete
+          </NavLink>
+          <NavLink activeClassName="active" exact to="/login" className="nav-link">
+          Iniciar sesión
+          </NavLink>
         </div>
         <div className="col-6 allegory-nav__logo">
           <a>
             <img src={logo} alt="Logo de la página" />
           </a>
-        </div>
+        {/* </div>
         <div className="col-2">
           <div type="button" className="text-right btn btn-calipso">
             <NavLink activeClassName="active" exact to="/register" className="nav-link">
@@ -50,7 +56,7 @@ export default function Nav() {
             <NavLink activeClassName="active" exact to="/login" className="nav-link">
               Iniciar sesión
             </NavLink>
-          </div>
+          </div> */}
         </div>
       </div>
     </nav>
