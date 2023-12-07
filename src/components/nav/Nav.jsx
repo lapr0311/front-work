@@ -43,20 +43,7 @@ export default function Nav() {
           <a>
             <img src={logo} alt="Logo de la página" />
           </a>
-        {/* </div>
-        <div className="col-2">
-          <div type="button" className="text-right btn btn-calipso">
-            <NavLink activeClassName="active" exact to="/register" className="nav-link">
-              Suscríbete
-            </NavLink>
-          </div>
-        </div>
-        <div className="col-1">
-          <div type="button" className="text-right btn btn-calipso">
-            <NavLink activeClassName="active" exact to="/login" className="nav-link">
-              Iniciar sesión
-            </NavLink>
-          </div> */}
+        
         </div>
       </div>
     </nav>

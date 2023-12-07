@@ -62,6 +62,44 @@
     cursor: pointer;
 }
 
+.navbar-toggler {
+    border: none; /* Elimina el borde del botón */
+    padding: 0.25rem 0.75rem; /* Agrega un poco de espacio alrededor del botón */
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #333; /* Color de las barras del botón */
+    width: 1.5em; /* Ancho de las barras del botón */
+    height: 1.5em; /* Altura de las barras del botón */
+  }
+  
+  /* Estilos para los enlaces del menú */
+  .nav-link {
+    color: #333; /* Color del texto de los enlaces */
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-nav {
+      flex-direction: column; /* Cambia la dirección del menú para dispositivos móviles */
+      padding-left: 0; /* Elimina el padding izquierdo del menú */
+      padding-right: 0; /* Elimina el padding derecho del menú */
+    }
+  
+    .navbar-collapse {
+      background-color: #fff; /* Color de fondo del menú desplegable en dispositivos móviles */
+      border-top: 1px solid #ddd; /* Borde superior para el menú desplegable */
+      padding-bottom: 10px; /* Espaciado inferior del menú desplegable */
+    }
+  
+    .navbar-toggler-icon {
+      background-color: #fff; /* Color de las barras del botón en dispositivos móviles */
+    }
+  
+    .nav-link {
+      padding: 0.5rem 1rem; /* Ajusta el padding de los enlaces del menú */
+    }
+  }
+
 a{
     text-decoration: none;
 }
