@@ -15,7 +15,9 @@ export default function Nav() {
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav">
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">Home</a>
+        <NavLink activeClassName="active" exact to="/Home" className="nav-link">
+            Inicio
+          </NavLink>
         </li>
         <li className="nav-item">
         <NavLink activeClassName="active" exact to="/buscador" className="nav-link">
@@ -23,11 +25,26 @@ export default function Nav() {
             </NavLink>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Pricing</a>
+        <NavLink activeClassName="active" exact to="/nosotras" className="nav-link">
+            Nosotras
+          </NavLink>
         </li>
         <li className="nav-item">
-          <a className="nav-link disabled">Disabled</a>
+        <NavLink activeClassName="active" exact to="/blog" className="nav-link">
+            Blog
+          </NavLink>
         </li>
+        <li className="nav-item">
+        <NavLink activeClassName="active" exact to="/register" className="nav-link">
+          Suscríbete
+          </NavLink>
+        </li>
+        <li className="nav-item">
+        <NavLink activeClassName="active" exact to="/login" className="nav-link">
+          Iniciar sesión
+          </NavLink>
+        </li>
+        
       </ul>
     </div>
   </div>
