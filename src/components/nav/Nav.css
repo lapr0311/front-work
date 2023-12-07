@@ -68,3 +68,10 @@ a{
 body {
     margin-bottom: 100px; 
   }
+
+
+  @media only screen and (max-width: 980px) {
+    .d-flex.justify-content-end.align-items-center.visible-md-flex.visible-lg-flex.visible-xl-flex {
+    display: none;
+    }
+    }
