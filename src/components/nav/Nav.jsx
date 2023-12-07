@@ -8,87 +8,62 @@ export default function Nav() {
 
  
 
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-
-  const handleMobileMenu = () => {
-    setIsMobileMenuOpen(!isMobileMenuOpen);
-
-  };
-  return (
-
   
+
+
+  return (
+    
+
     <nav className="navbar navbar-expand-lg navbar-light allegory-nav__container">
-      <div className="navbar-container">
-        <div className="navbar-logo">
-          <img src={logo} alt="Logo de la página" />
-        </div>
-        <div className={`navbar-links ${isMobileMenuOpen ? 'active' : ''}`}>
-          <NavLink exact to="/Home" activeClassName="active">
-            Inicio
-          </NavLink>
-          <NavLink to="/buscador" activeClassName="active">
+    <button
+      className="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span className="navbar-toggler-icon"></span>
+    </button>
+    <div className="collapse navbar-collapse allegory-nav__links col-3" id="navbarNav">
+      <div className="allegory-nav__links--left">
+        <NavLink activeClassName="active" exact to="/Home">
+          Inicio
+        </NavLink>
+        <NavLink activeClassName="active" exact to="/buscador">
           Buscador
-          </NavLink>
-          
-        </div>
-        <div className="navbar-toggle" onClick={handleMobileMenu}>
-          <i className={`fas ${isMobileMenuOpen ? 'fa-times' : 'fa-bars'}`}></i>
-        </div>
+        </NavLink>
+        <NavLink activeClassName="active" exact to="/nosotras">
+          Nosotras
+        </NavLink>
+        <NavLink activeClassName="active" exact to="/blog">
+          Blog
+        </NavLink>
       </div>
-    </nav>
-  );
-};
-
-  //   <nav className="navbar navbar-expand-lg navbar-light allegory-nav__container">
-  //   <button
-  //     className="navbar-toggler"
-  //     type="button"
-  //     data-toggle="collapse"
-  //     data-target="#navbarNav"
-  //     aria-controls="navbarNav"
-  //     aria-expanded="false"
-  //     aria-label="Toggle navigation"
-  //   >
-  //     <span className="navbar-toggler-icon"></span>
-  //   </button>
-  //   <div className="collapse navbar-collapse allegory-nav__links col-3" id="navbarNav">
-  //     <div className="allegory-nav__links--left">
-  //       <NavLink activeClassName="active" exact to="/Home">
-  //         Inicio
-  //       </NavLink>
-  //       <NavLink activeClassName="active" exact to="/buscador">
-  //         Buscador
-  //       </NavLink>
-  //       <NavLink activeClassName="active" exact to="/nosotras">
-  //         Nosotras
-  //       </NavLink>
-  //       <NavLink activeClassName="active" exact to="/blog">
-  //         Blog
-  //       </NavLink>
-  //     </div>
-  //   </div>
-  //   <div className="col-6 allegory-nav__logo">
-  //     <a>
-  //       <img src={logo} alt="Logo de la página" />
-  //     </a>
-  //   </div>
-  //   <div className="col-2">
-  //     <div type="button" className="text-right btn btn-calipso">
-  //       <NavLink activeClassName="active" exact to="/register">
-  //         Suscríbete
-  //       </NavLink>
-  //     </div>
-  //   </div>
-  //   <div className="col-1">
-  //     <div type="button" className="text-right btn btn-calipso">
-  //       <NavLink activeClassName="active" exact to="/login">
-  //         Iniciar sesión
-  //       </NavLink>
-  //     </div>
-  //   </div>
-  // </nav>
-
-
+    </div>
+    <div className="col-6 allegory-nav__logo">
+      <a>
+        <img src={logo} alt="Logo de la página" />
+      </a>
+    </div>
+    <div className="col-2">
+      <div type="button" className="text-right btn btn-calipso">
+        <NavLink activeClassName="active" exact to="/register">
+          Suscríbete
+        </NavLink>
+      </div>
+    </div>
+    <div className="col-1">
+      <div type="button" className="text-right btn btn-calipso">
+        <NavLink activeClassName="active" exact to="/login">
+          Iniciar sesión
+        </NavLink>
+      </div>
+    </div>
+  </nav>
+);
+}
 //     <nav className="navbar navbar-expand-lg navbar-light allegory-nav__container">
 //     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 //         <span className="navbar-toggler-icon"></span>
