@@ -18,7 +18,7 @@ export default function Nav() {
       >
         <span className="navbar-toggler-icon"></span>
       </button>
-      <div className="collapse navbar-collapse" id="navbarDropdown">
+      <div className="collapse navbar-collapse" id="navbarNav">
         <div className="allegory-nav__links--left navbar-nav">
           <NavLink activeClassName="active" exact to="/Home" className="nav-link">
             Inicio
