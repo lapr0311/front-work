@@ -2,6 +2,7 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 
 import './Home.css';
+import { Button } from 'bootstrap';
 
 
 
@@ -20,7 +21,9 @@ export default function Home() {
       comprar en tu talla.</h1>
       <a>
       
-         <NavLink className={({ isActive }) => (isActive ? 'active' : undefined)} end to="/buscador" >Buscador</NavLink>
+          <button>
+          <NavLink className={({ isActive }) => (isActive ? 'active' : undefined)} end to="/buscador" >Buscador</NavLink>
+          </button>
       </a>
 
       </div>
