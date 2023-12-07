@@ -1,4 +1,110 @@
+
 * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+
+/* Estilos para el menú responsive */
+.navbar {
+    background-color: #fff; /* Color de fondo del menú */
+}
+
+.navbar-toggler {
+    border: none; /* Elimina el borde del botón */
+}
+
+.navbar-toggler-icon {
+    background-color: #333; /* Color de las barras del botón */
+}
+
+.navbar-nav {
+    margin-top: 10px; /* Espaciado superior para los enlaces del menú */
+}
+
+.nav-link {
+    color: #333; /* Color del texto de los enlaces */
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        margin-top: 0; /* Elimina el espacio superior en dispositivos móviles */
+    }
+
+    .navbar-collapse {
+        background-color: #fff; /* Color de fondo del menú desplegable en dispositivos móviles */
+        border-top: 1px solid #ddd; /* Borde superior para el menú desplegable */
+        padding-bottom: 10px; /* Espaciado inferior del menú desplegable */
+    }
+
+    .navbar-toggler-icon {
+        background-color: #fff; /* Color de las barras del botón en dispositivos móviles */
+    }
+
+    .nav-link {
+        color: #333; /* Color del texto de los enlaces en dispositivos móviles */
+    }
+}
+
+/* Resto de estilos */
+.allegory-hero__container {
+    padding-top: 5.5rem;
+    background-image: url('../../asset/img/hero.jpg');
+    max-width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.allegory-hero__content {
+    padding: 70px 40px;
+}
+
+.allegory-hero__content--title {
+    font-family: 'Zilla Slab', serif;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: normal;
+}
+
+.allegory-hero__content--p {
+    width: 100%; /* Cambiado para ocupar todo el ancho */
+    font-family: 'DM Sans', sans-serif;
+    text-decoration: none;
+    font-weight: 400;
+    color: #000;
+    font-size: 13.5px;
+    margin-top: 20px;
+    padding: 0;
+}
+
+.allegory-hero__content--button {
+    background-color: #282828;
+    border: none;
+    color: #fff;
+    padding: 16px 40px;
+    border-radius: 50px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    margin-top: 35px;
+    font-size: 14px;
+}
+
+.allegory-hero__content--button:hover {
+    background-color: #8CD7D7;
+    cursor: pointer;
+}
+
+.allegory-hero__content--button:active {
+    background-color: #000;
+    cursor: pointer;
+}
+
+
+
+
+
+/* * {
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
@@ -56,4 +162,4 @@
 .allegory-hero__content--button:active{
     background-color: #000;
     cursor: pointer;
-}
+} */
