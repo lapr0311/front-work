@@ -36,7 +36,7 @@ export default function Nav() {
         </li>
         <li className="nav-item">
         <NavLink activeClassName="active" exact to="/register" className="nav-link">
-          Suscríbete
+          Registrarse
           </NavLink>
         </li>
         <li className="nav-item">

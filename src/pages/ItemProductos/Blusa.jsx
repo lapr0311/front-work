@@ -129,7 +129,7 @@ export default function Blusa() {
       >
          <div className="modal-container">
           <div className="modal-content">
-        <h2> Talla de Busto (cm) </h2>
+        <h2> Medida de Busto (cm) </h2>
         <input value={selectedPechoSize} onChange={handlePechoSizeChange} />
         <button onClick={handleBuscar}>Buscar</button>
         <button className="close-button"  onClick={closeModal}>X</button>
