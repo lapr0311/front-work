@@ -198,7 +198,10 @@ export default function Productos() {
 
           <div className="button-buscador__container">
             <button className="button-buscador__productos--button">
-            <a> <img className="button-buscador__productos--svg"  src={pack} alt="Logo de la página" /> </a>
+            <NavLink className="button-buscador__productos--button" to="/pack">
+        <img className="button-buscador__productos--svg" src={pack} alt="Logo de la página" />
+      </NavLink>
+              {/* <a> <img className="button-buscador__productos--svg"  src={pack} alt="Logo de la página" /> </a> */}
             </button>
             <NavLink className={({ isActive }) => (isActive ? 'active' : undefined)}  end to="/pack" >Pack</NavLink>
           </div>
