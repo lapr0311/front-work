@@ -78,17 +78,24 @@ export default function Productos() {
 
       <div>
 
+
+
         <div className="buscador__productos">
           <div className="button-buscador__container">
             <button className="button-buscador__productos--button">
+            <NavLink className="button-buscador__productos--button" to="/anteojos">
               <a> <img className="button-buscador__productos--svg"  src={anteojos} alt="Logo de la página" /> </a>
+              </NavLink>
             </button>
+            
             <NavLink className={({ isActive }) => (isActive ? 'active' : undefined)}  end to="/anteojos" >Anteojos</NavLink>
           </div>
 
           <div className="button-buscador__container">
             <button className="button-buscador__productos--button">
+            <NavLink className="button-buscador__productos--button" to="/bikini">
             <a> <img className="button-buscador__productos--svg"  src={bikini} alt="Logo de la página" /> </a>
+            </NavLink>
             </button>
             <NavLink className={({ isActive }) => (isActive ? 'active' : undefined)}  end to="/bikini" >Bikini</NavLink>
           </div>
@@ -96,49 +103,63 @@ export default function Productos() {
 
           <div className="button-buscador__container">
             <button className="button-buscador__productos--button">
+            <NavLink className="button-buscador__productos--button" to="/blazer">
             <a> <img className="button-buscador__productos--svg"  src={blazer} alt="Logo de la página" /> </a>
+            </NavLink>
             </button>
             <NavLink className={({ isActive }) => (isActive ? 'active' : undefined)}  end to="/blazer" >Blazer</NavLink>
           </div>
 
           <div className="button-buscador__container">
             <button className="button-buscador__productos--button">
+            <NavLink className="button-buscador__productos--button" to="/blusa">
             <a> <img className="button-buscador__productos--svg"  src={blusa} alt="Logo de la página" /> </a>
+            </NavLink>
             </button>
             <NavLink className={({ isActive }) => (isActive ? 'active' : undefined)}  end to="/blusa" >Blusa</NavLink>
           </div>
 
           <div className="button-buscador__container">
             <button className="button-buscador__productos--button">
+            <NavLink className="button-buscador__productos--button" to="/bolso">
             <a> <img className="button-buscador__productos--svg"  src={bolso} alt="Logo de la página" /> </a>
+            </NavLink>
             </button>
             <NavLink className={({ isActive }) => (isActive ? 'active' : undefined)}  end to="/bolso" >Bolso</NavLink>
           </div>
 
           <div className="button-buscador__container">
             <button className="button-buscador__productos--button">
+            <NavLink className="button-buscador__productos--button" to="/botas">
             <a> <img className="button-buscador__productos--svg"  src={botas} alt="Logo de la página" /> </a>
+            </NavLink>
             </button>
             <NavLink className={({ isActive }) => (isActive ? 'active' : undefined)}  end to="/botas" >Botas</NavLink>
           </div>
 
           <div className="button-buscador__container">
             <button className="button-buscador__productos--button">
+            <NavLink className="button-buscador__productos--button" to="/botines">
             <a> <img className="button-buscador__productos--svg"  src={botines} alt="Logo de la página" /> </a>
+            </NavLink>
             </button>
             <NavLink className={({ isActive }) => (isActive ? 'active' : undefined)}  end to="/botines" >Botines</NavLink>
           </div>
 
           <div className="button-buscador__container">
             <button className="button-buscador__productos--button">
+            <NavLink className="button-buscador__productos--button" to="/bufanda">
             <a> <img className="button-buscador__productos--svg"  src={bufanda} alt="Logo de la página" /> </a>
+            </NavLink>
             </button>
             <NavLink className={({ isActive }) => (isActive ? 'active' : undefined)}  end to="/bufanda" >Bufanda</NavLink>
           </div>
 
           <div className="button-buscador__container">
             <button className="button-buscador__productos--button">
+            <NavLink className="button-buscador__productos--button" to="/camisa">
             <a> <img className="button-buscador__productos--svg"  src={camisa} alt="Logo de la página" /> </a>
+            </NavLink>
             </button>
             <NavLink className={({ isActive }) => (isActive ? 'active' : undefined)}  end to="/camisa" >Camisa</NavLink>
           </div>
@@ -147,51 +168,63 @@ export default function Productos() {
 
           <div className="button-buscador__container">
             <button  className="button-buscador__productos--button">
-              <a href="./productos.html">
+            <NavLink className="button-buscador__productos--button" to="/chaqueta">
               <a> <img className="button-buscador__productos--svg"  src={chaqueta} alt="Logo de la página" /> </a>
-            </a>
+                </NavLink>
             </button>
             <NavLink className={({ isActive }) => (isActive ? 'active' : undefined)}  end to="/chaqueta" >Chaqueta</NavLink>
           </div>
 
           <div className="button-buscador__container">
             <button className="button-buscador__productos--button">
+            <NavLink className="button-buscador__productos--button" to="/cinturon">
             <a> <img className="button-buscador__productos--svg"  src={cinturon} alt="Logo de la página" /> </a>
+            </NavLink>
             </button>
             <NavLink className={({ isActive }) => (isActive ? 'active' : undefined)}  end to="/cinturon" >Cinturon</NavLink>
           </div>
 
           <div className="button-buscador__container">
             <button className="button-buscador__productos--button">
+            <NavLink className="button-buscador__productos--button" to="/collar">
             <a> <img className="button-buscador__productos--svg"  src={collar} alt="Logo de la página" /> </a>
+            </NavLink>
             </button>
             <NavLink className={({ isActive }) => (isActive ? 'active' : undefined)}  end to="/collar" >Collar</NavLink>
           </div>
 
           <div className="button-buscador__container">
             <button className="button-buscador__productos--button">
+            <NavLink className="button-buscador__productos--button" to="/falda">
             <a> <img className="button-buscador__productos--svg"  src={falda} alt="Logo de la página" /> </a>
+            </NavLink>
             </button>
             <NavLink className={({ isActive }) => (isActive ? 'active' : undefined)}  end to="/falda" >Falda</NavLink>
           </div>
 
           <div className="button-buscador__container">
             <button className="button-buscador__productos--button">
+            <NavLink className="button-buscador__productos--button" to="/jeans">
             <a> <img className="button-buscador__productos--svg"  src={jeans} alt="Logo de la página" /> </a>
+            </NavLink>
             </button>
             <NavLink className={({ isActive }) => (isActive ? 'active' : undefined)}  end to="/jeans" >Jeans</NavLink>
           </div>
 
           <div className="button-buscador__container">
             <button className="button-buscador__productos--button">
+            <NavLink className="button-buscador__productos--button" to="/jockey">
             <a> <img className="button-buscador__productos--svg"  src={jockey} alt="Logo de la página" /> </a>
+            </NavLink>
             </button>
             <NavLink className={({ isActive }) => (isActive ? 'active' : undefined)}  end to="/jockey" >Jockey</NavLink>
           </div>
 
           <div className="button-buscador__container">
             <button className="button-buscador__productos--button">
+            <NavLink className="button-buscador__productos--button" to="/lentes">
             <a> <img className="button-buscador__productos--svg"  src={lentes} alt="Logo de la página" /> </a>
+            </NavLink>
             </button>
             <NavLink className={({ isActive }) => (isActive ? 'active' : undefined)}  end to="/lentes" >Lentes</NavLink>
           </div>
@@ -200,71 +233,88 @@ export default function Productos() {
             <button className="button-buscador__productos--button">
             <NavLink className="button-buscador__productos--button" to="/pack">
         <img className="button-buscador__productos--svg" src={pack} alt="Logo de la página" />
-      </NavLink>
-              {/* <a> <img className="button-buscador__productos--svg"  src={pack} alt="Logo de la página" /> </a> */}
+            </NavLink>
             </button>
             <NavLink className={({ isActive }) => (isActive ? 'active' : undefined)}  end to="/pack" >Pack</NavLink>
           </div>
 
           <div className="button-buscador__container">
             <button className="button-buscador__productos--button">
-            <a> <img className="button-buscador__productos--svg"  src={pantalon} alt="Logo de la página" /> </a>
+            <NavLink className="button-buscador__productos--button" to="/pantalon">
+        <img className="button-buscador__productos--svg" src={pantalon} alt="Logo de la página" />
+            </NavLink>
             </button>
             <NavLink className={({ isActive }) => (isActive ? 'active' : undefined)}  end to="/pantalon" >Pantalon</NavLink>
           </div>
 
           <div className="button-buscador__container">
             <button className="button-buscador__productos--button">
+            <NavLink className="button-buscador__productos--button" to="/pañuelos">
             <a> <img className="button-buscador__productos--svg"  src={panuelo} alt="Logo de la página" /> </a>
+            </NavLink>
             </button>
             <NavLink className={({ isActive }) => (isActive ? 'active' : undefined)}  end to="/pañuelos" >Pañuelos</NavLink>
           </div>
 
           <div className="button-buscador__container">
             <button className="button-buscador__productos--button">
+            <NavLink className="button-buscador__productos--button" to="/pendientes">
             <a> <img className="button-buscador__productos--svg"  src={pendientes} alt="Logo de la página" /> </a>
+            </NavLink>
             </button>
             <NavLink className={({ isActive }) => (isActive ? 'active' : undefined)}  end to="/pendientes" >Pendientes</NavLink>
           </div>
 
           <div className="button-buscador__container">
             <button className="button-buscador__productos--button">
+            <NavLink className="button-buscador__productos--button" to="/polera">
             <a> <img className="button-buscador__productos--svg"  src={polera} alt="Logo de la página" /> </a>
+            </NavLink>
             </button>
             <NavLink className={({ isActive }) => (isActive ? 'active' : undefined)}  end to="/polera" >Polera</NavLink>
           </div>
 
           <div className="button-buscador__container">
             <button className="button-buscador__productos--button">
+            <NavLink className="button-buscador__productos--button" to="/sandalias">
             <a> <img className="button-buscador__productos--svg"  src={sandalias} alt="Logo de la página" /> </a>
+            </NavLink>
             </button>
             <NavLink className={({ isActive }) => (isActive ? 'active' : undefined)}  end to="/sandalias" >Sandalias</NavLink>
           </div>
 
           <div className="button-buscador__container">
             <button className="button-buscador__productos--button">
+            <NavLink className="button-buscador__productos--button" to="/top">
             <a> <img className="button-buscador__productos--svg"  src={top} alt="Logo de la página" /> </a>
+            </NavLink>
             </button>
             <NavLink className={({ isActive }) => (isActive ? 'active' : undefined)}  end to="/top" >Top</NavLink>
           </div>
 
           <div className="button-buscador__container">
             <button className="button-buscador__productos--button">
+            <NavLink className="button-buscador__productos--button" to="/vestido">
             <a> <img className="button-buscador__productos--svg"  src={vestido} alt="Logo de la página" /> </a>
+            </NavLink>
             </button>
             <NavLink className={({ isActive }) => (isActive ? 'active' : undefined)}  end to="/vestido" >Vestido</NavLink>
           </div>
 
           <div className="button-buscador__container">
             <button className="button-buscador__productos--button">
+            <NavLink className="button-buscador__productos--button" to="/zapatillas">
             <a> <img className="button-buscador__productos--svg"  src={zapatillas} alt="Logo de la página" /> </a>
+            </NavLink>
             </button>
             <NavLink className={({ isActive }) => (isActive ? 'active' : undefined)}  end to="/zapatillas" >Zapatillas</NavLink>
           </div>
 
           <div className="button-buscador__container">
             <button className="button-buscador__productos--button">
+            <NavLink className="button-buscador__productos--button" to="/zapatos">
             <a> <img className="button-buscador__productos--svg"  src={zapatos} alt="Logo de la página" /> </a>
+            </NavLink>
             </button>
             <NavLink className={({ isActive }) => (isActive ? 'active' : undefined)}  end to="/zapatos" >Zapatos</NavLink>
           </div>
